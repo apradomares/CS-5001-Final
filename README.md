@@ -9,11 +9,13 @@
 
 ## Description
 General overview of the project, what you did, why you did it, etc.
+
     This project is based on the premise of creating a system where users can look at certain pets and learn about their fundamental characteristics, it would inform the user of their difficulty of care, their lifespan, their likely size and so on. It would also display a small blurb of extra info describing more relevant info about how to handle and care for them. User would be able to sort through the pets in case they want something small or perhaps cheap instead. They would also be able to add or remove pets from the database.
     I did it because I enjoyed working with files and wanted to create something relating to them, extensively manipulating them and modifying them through coding. For the purposes of this project, the pet database from which the dictionary is created is a .json file because I found that it is much easier to manipulate and modify than a simple text file. However, I also did use text files for simple stuff like storing any information the user wants saved, or the extended information blurb that appears when requested.
 
 ## Key Features
 Highlight some key features of this project that you want to show off/talk about/focus on.
+
     The main feature is the pet dictionary and database. All the pets created are stored in a JSON file where they can easily be modified, more pets can be added or removed. This file is then processed to become a dictionary from which another key feature, the sorting function is able to sort through the pets based on their values, the user can decide whether they want a specific type of pet. The
     dictionary itself and the class function are deeply interlinked. The Pet class I made is the blueprint of sorts that allow for the
     creation of these individual pet objects. The pet dictionary serves as a way to build up the Pet class as well, where each value is
@@ -22,11 +24,13 @@ Highlight some key features of this project that you want to show off/talk about
 
 ## Guide
 How do we run your project? What should we do to see it in action? - Note this isn't installing, this is actual use of the project.. If it is a website, you can point towards the gui, use screenshots, etc talking about features.
+
     It is a Python script, all text based, simply start it and select the choices pertinent to you based on the prompts. The script makes sure the user does not enter incorrect prompts and gives guidance if unsure of what to input.
 
 
 ## Installation Instructions
 If we wanted to run this project locally, what would we need to do?  If we need to get API key's include that information, and also command line startup commands to execute the project. If you have a lot of dependencies, you can also include a requirements.txt file, but make sure to include that we need to run `pip install -r requirements.txt` or something similar.
+
     The only thing to install would be the rich library
     pip install rich
     Other than that, there is some pre made files I have created that I will submit alongside that must be in the same folder. These are the pet_dictionary.json which has already some premade pets on it and serves as the database where all pets are stored, there is other minor text files for each pre made pet where their extended info is saved.
@@ -49,6 +53,8 @@ Go over key aspects of code in this section. Both link to the file, include snip
 
         pet_dictionary[key] = Pet(name, sizes, complexity, cost, lifespan, food)
 ```
+
+
     This first block in create_pet_dictionary builds up the core of the aforemented dictionary and Pet class relation. Here the dictionary retrieves info from the JSON file. There is the first key with the pet name on it and inside there are subkeys with values attached to them. For each item in the
     file, the key is the pet name then, pet_data looks for the spific value I want and assigns it to a variable of the same name. Once
     all values have been found and assigned a variable, they create a new Pet object and assigns it to the pet dictionary with the name of the
@@ -91,6 +97,8 @@ Go over key aspects of code in this section. Both link to the file, include snip
     # Add new pet to dictionary
     pet_dictionary[pet_name] = new_pet_data
 ```
+
+
     This second block in add_new_pet is what led to the creation of get_valid_input. I needed a way for users to only select the choices I
     wanted them to make as to not create too many values in the dictionary and the Pet class, that way the sorting function would be much
     more navihable and not filled with dozens of redundant options (having small and smaller or something like that). I did this by making
@@ -138,6 +146,8 @@ Go over key aspects of code in this section. Both link to the file, include snip
         for pet_name in pet_list:
             print(pet_name.title())
 ```
+
+
     The last major code snippet is the sorting function. It works by getting two criteria the user wants to sort by, first it asks for one
     of the keys in the nested dictionaries (size, complexity, cost, or lifespan). Once one of these is selected, it looks for the values of
     each of these keys as an available option (the pre existing values only such that for size only small/medium/large is valid). Once both
@@ -148,6 +158,7 @@ Go over key aspects of code in this section. Both link to the file, include snip
 
 ### Major Challenges
 Key aspects could include pieces that your struggled on and/or pieces that you are proud of and want to show off.
+
     Major challenge was setting up the dictionary and the JSON file that needed to be update every time the user added a new pet or
     removed one. Initially I used a text file for the dictionary as well but as my code got more complex when modying these, I found that
     JSON files were more suited to this task especially because the dump function had a lot of usability to it was easy to use when writting
@@ -162,6 +173,7 @@ Key aspects could include pieces that your struggled on and/or pieces that you a
 
 ## Example Runs
 Explain how you documented running the project, and what we need to look for in your repository (text output from the project, small videos, links to videos on youtube of you running it, etc)
+
     I kept running test where I tried out all functions as I went, whenever an error ocurred I took the time to see what was causing it and
     fixing it. In some cases it was when I tried to exit midway through something and the program didn't let me such as when I was adding a
     pet which led to more exit paths to be put in place. In other cases, the error was on the dictionary being read, before I put the
@@ -172,6 +184,7 @@ Explain how you documented running the project, and what we need to look for in 
 
 ## Testing
 How did you test your code? What did you do to make sure your code was correct? If you wrote unit tests, you can link to them here. If you did run tests, make sure you document them as text files, and include them in your submission.
+
     I tested by running the program and trying all possible combinations of words until I recieved an error relating to a valid option not
     parsing properly or such. I have attached the runs where I tried out multiple things here like mentioned before as text files.
 
@@ -180,6 +193,7 @@ How did you test your code? What did you do to make sure your code was correct? 
 
 ## Missing Features / What's Next
 Focus on what you didn't get to do, and what you would do if you had more time, or things you would implement in the future. 
+
     Main thing is for when an user adds a new pet, I want them to be able to submit them as lists, only the premade pets have lists as their
     values in some cases (such as dogs falling on the small/medium/large category due to their variable sizes). Users can only select one of
     each value to add their pets as for practicality, in theory they could go to the JSON file and add more attributes there as a list once
@@ -194,6 +208,7 @@ Focus on what you didn't get to do, and what you would do if you had more time, 
 
 ## Final Reflection
 Write at least a paragraph about your experience in this course. What did you learn? What do you need to do to learn more? Key takeaways? etc.
+
     I learnt a lot about the basics of coding, the set ups that looks kind of basic such as looping and recursiveness, that build up to create
     more complex and demanding code. At times it felt like I only learned the bare basics, which is technically the point, took a lot of
     self study and investment to see how they worked more deeply. I feel like I am still shaky on the foundations of how things work and how
