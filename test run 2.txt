@@ -1,0 +1,264 @@
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: c
+
+Choose a pet to learn about:
+- Betta Fish
+- Mexican Red Knee Tarantula
+- Cat
+- Dog
+- Parakeets
+
+Enter your choice: betta fish
+Information about Betta Fish:
+Size: ['small']
+Complexity: beginner
+Cost: ['cheap']
+Expected Lifespan: ['short']
+Food: fish flakes
+
+Do you want to read extended information about this pet? (yes/no): no
+Do you want to save this information to a file? (yes/no): yes
+Enter a file name to save to: gen info file
+Information saved to gen info file.txt.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: c
+
+Choose a pet to learn about:
+- Betta Fish
+- Mexican Red Knee Tarantula
+- Cat
+- Dog
+- Parakeets
+
+Enter your choice: mexican red knee tarantula
+Information about Mexican Red Knee Tarantula:
+Size: ['small']
+Complexity: beginner
+Cost: ['moderate']
+Expected Lifespan: ['medium', 'long']
+Food: insects
+
+Do you want to read extended information about this pet? (yes/no): yes
+
+Extended Information for Mexican Red Knee Tarantula:
+Terrarium Setup: Provide a terrarium of at least 5-10 gallons with a secure lid; these tarantulas are ground dwellers and need horizontal space.
+Substrate: Use a thick layer of substrate like coconut fiber or peat moss for burrowing; keep it slightly moist but not wet.
+Temperature and Humidity: Maintain a temperature between 75-85Â°F and humidity levels around 60-70% for optimal health.
+Hiding Places: Offer hiding spots using bark, hollow logs, or terracotta pots to mimic their natural habitat.
+Feeding: Feed them live prey such as crickets or mealworms; juveniles eat more frequently than adults, typically once or twice a week.
+Water Source: Provide a shallow water dish for drinking; ensure it's not too deep to prevent drowning.
+Handling: Limit handling as tarantulas can become stressed; they are also fragile and prone to injury from falls.
+Molting Process: Recognize the molting process, during which they should not be fed or disturbed, as they are vulnerable.
+Regular Maintenance: Clean the terrarium regularly, but avoid using harsh chemicals; remove uneaten food and waste promptly.
+Observation: Observe your tarantula's behavior for signs of stress or illness and adapt their care as needed.
+Do you want to save this information to a file? (yes/no): yes
+Enter a file name to save to: gen info file
+gen info file.txt already exists. Append (a) or Overwrite (o)? a
+Information saved to gen info file.txt.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: f
+Sort by 'size', 'complexity', 'cost', or 'lifespan'? size
+Choose a size (small/medium/large): medium
+
+Pets with size 'medium':
+Cat
+Dog
+Would you like to sort again? (yes/no): no
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: c
+
+Choose a pet to learn about:
+- Betta Fish
+- Mexican Red Knee Tarantula
+- Cat
+- Dog
+- Parakeets
+
+Enter your choice: exit
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: a
+Add a new pet to the database (type 'exit' at any point to cancel):
+Enter the name of the new pet: testing pet
+Enter sizes (small/medium/large): large
+Enter complexity (beginner/intermediate/advanced): beginner
+Enter cost (cheap/moderate/expensive): moderate
+Enter lifespan (short/medium/long): medium
+Enter food: food can be anything
+Testing Pet has been added to the database.
+Do you want to upload extended information for this pet now? (yes/no): yes
+Enter the detailed information for this pet (type 'DONE' on a new line to finish):
+
+
+
+
+
+
+aaaaaaaaaaaaa
+aaaaaaaaaa
+
+
+
+aaaaaaaaaaaaaaaaaaaa
+DONE
+Extended information for Testing Pet has been created.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: c
+
+Choose a pet to learn about:
+- Betta Fish
+- Mexican Red Knee Tarantula
+- Cat
+- Dog
+- Parakeets
+- Testing Pet
+
+Enter your choice: testing pet
+Information about Testing Pet:
+Size: ['large']
+Complexity: beginner
+Cost: ['moderate']
+Expected Lifespan: ['medium']
+Food: food can be anything
+
+Do you want to read extended information about this pet? (yes/no): yes
+
+Extended Information for Testing Pet:
+
+
+
+
+
+
+aaaaaaaaaaaaa
+aaaaaaaaaa
+
+
+
+aaaaaaaaaaaaaaaaaaaa
+
+Do you want to save this information to a file? (yes/no): yes
+Enter a file name to save to: gen info file
+gen info file.txt already exists. Append (a) or Overwrite (o)? a
+Information saved to gen info file.txt.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice:
+Invalid choice. Please try again.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: f
+Sort by 'size', 'complexity', 'cost', or 'lifespan'? size
+Choose a size (small/medium/large): large
+
+Pets with size 'large':
+Dog
+Testing Pet
+Would you like to sort again? (yes/no): yes
+Sort by 'size', 'complexity', 'cost', or 'lifespan'? complexity
+Choose a complexity (beginner/intermediate/advanced): beginner
+
+Pets with complexity 'beginner':
+Betta Fish
+Mexican Red Knee Tarantula
+Parakeets
+Testing Pet
+Would you like to sort again? (yes/no): no
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: r
+Remove a pet from the database (type 'exit' to cancel):
+Enter the name of the pet to remove: testing pet
+Testing Pet has been removed from the database.
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: r
+Remove a pet from the database (type 'exit' to cancel):
+Enter the name of the pet to remove: aaaaaaaaaaaaa
+Invalid input. Please choose from ['betta fish', 'mexican red knee tarantula', 'cat', 'dog', 'parakeets'].
+Enter the name of the pet to remove: exit
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: c
+
+Choose a pet to learn about:
+- Betta Fish
+- Mexican Red Knee Tarantula
+- Cat
+- Dog
+- Parakeets
+
+Enter your choice: testing pet
+Invalid input. Please choose from ['betta fish', 'mexican red knee tarantula', 'cat', 'dog', 'parakeets'].
+
+Enter your choice: exit
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: f
+Sort by 'size', 'complexity', 'cost', or 'lifespan'? size
+Choose a size (small/medium/large): large
+
+Pets with size 'large':
+Dog
+Would you like to sort again? (yes/no): no
+ C - Choose a pet to learn about
+ F - Filter pets by a specific attributes
+ A - Add a new pet to the database
+ R - Remove existing pet from the database
+ Q - Quit
+
+Enter your choice: q
+Exiting program.
