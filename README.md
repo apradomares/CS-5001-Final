@@ -18,6 +18,7 @@ I did it because I enjoyed working with files and wanted to create something rel
 ## Key Features
 Highlight some key features of this project that you want to show off/talk about/focus on.
 
+
 ##    
 The main feature is the pet dictionary and database. All the pets created are stored in a JSON file where they can easily be modified, more pets can be added or removed. This file is then processed to become a dictionary from which another key feature, the sorting function is able to sort through the pets based on their values, the user can decide whether they want a specific type of pet. The dictionary itself and the class function are deeply interlinked. 
 
