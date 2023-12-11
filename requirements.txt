@@ -9,4 +9,5 @@
 # numpy
 # pandas
 # flask
-# requests  
+# requests
+rich
