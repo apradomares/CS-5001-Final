@@ -5,7 +5,8 @@ from rich import pretty
 from rich.console import Console
 from rich.traceback import install
 
-# Change directory
+# Change directory, I had some issues making sure the code and its required files were being read
+# If you have the same issues just change the path to the folder in which you are running it here or delete this instead if not
 '''
 new_directory = r"C:\Users\aprad\Desktop\MSCS\5001\final\pets"
 os.chdir(new_directory)
