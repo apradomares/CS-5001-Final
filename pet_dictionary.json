@@ -1,0 +1,77 @@
+{
+    "betta fish": {
+        "name": "betta fish",
+        "sizes": [
+            "small"
+        ],
+        "complexity": "beginner",
+        "cost": [
+            "cheap"
+        ],
+        "lifespan": [
+            "short"
+        ],
+        "food": "fish flakes"
+    },
+    "mexican red knee tarantula": {
+        "name": "mexican red knee tarantula",
+        "sizes": [
+            "small"
+        ],
+        "complexity": "beginner",
+        "cost": [
+            "moderate"
+        ],
+        "lifespan": [
+            "medium",
+            "long"
+        ],
+        "food": "insects"
+    },
+    "cat": {
+        "name": "cat",
+        "sizes": [
+            "medium"
+        ],
+        "complexity": "intermediate",
+        "cost": [
+            "moderate"
+        ],
+        "lifespan": [
+            "long"
+        ],
+        "food": "cat food"
+    },
+    "dog": {
+        "name": "dog",
+        "sizes": [
+            "small",
+            "medium",
+            "large"
+        ],
+        "complexity": "advanced",
+        "cost": [
+            "moderate",
+            "expensive"
+        ],
+        "lifespan": [
+            "medium",
+            "long"
+        ],
+        "food": "dog food"
+    },
+    "parakeets": {
+        "name": "parakeets",
+        "sizes": [
+            "small"
+        ],
+        "complexity": "beginner",
+        "cost": [
+            "cheap"
+        ],
+        "lifespan": [
+            "medium"
+        ],
+        "food": "bird food"
+    }
+}
